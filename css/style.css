@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #012d2c, #046f7d);
+}
+
+.container{
+    width: 560px;
+    height: 350px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px rgba(rgb(114, 22, 22), rgb(36, 77, 227), rgb(213, 213, 225), #aeaeae,0.35);
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
