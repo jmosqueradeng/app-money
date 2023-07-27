@@ -28,3 +28,64 @@ main{
     justify-content: space-between;
     margin-top: 2rem;
 }
+
+.rete1, .rate2{
+    color: #000;
+}
+
+.swap{
+    cursor: pointer;
+    padding: 5px;
+    align-self: flex-end;
+    font-size: 36px;
+}
+
+.options select{
+    width: 85px;
+    padding: 2%;
+}
+
+.input input{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #000 !important;
+    color: #fff !important;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: none;
+    appearance: textfield;
+    all: unset;
+    padding: 5px;
+   
+
+}
+
+.rate1{
+    margin-top: 1.5rem;
+}
+
+.rate2{
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.target{
+    transform: translateX(-4%);
+}
+
+.result{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #046f7d;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
