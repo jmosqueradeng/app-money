@@ -35,8 +35,9 @@ function populteOptions(){
     Object.keys(rates).forEach(code => {
         let str = `<option value="${code}">${code}</option>`;
         // incrementar el option hasta le ultima moneda
-        // val = val + str;
+        //  val = val + str;
         val += str;
+        
     })
     // mostrar las options
     selects.forEach((s) => (s.innerHTML = val));
